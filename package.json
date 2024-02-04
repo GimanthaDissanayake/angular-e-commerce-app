@@ -9,7 +9,7 @@
     "test": "ng test",
     "serve:ssr:angular-e-commerce-app": "node dist/angular-e-commerce-app/server/server.mjs",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
-    "build:ci": "ng build --prod",
+    "build:ci": "ng build",
     "lint": "ng lint"
   },
   "private": true,
